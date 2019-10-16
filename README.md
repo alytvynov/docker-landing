@@ -1,4 +1,4 @@
-#Docker landing page
+# Docker landing page
 Simple docker to deploy landing page without additional backend functionality
 
 Useful commands
@@ -6,3 +6,5 @@ Useful commands
 docker image build -t nginx-landing .
 docker container run -p 80:80 --rm nginx-landing
 ```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
